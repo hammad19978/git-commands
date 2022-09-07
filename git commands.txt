@@ -1,0 +1,47 @@
+
+
+
+			GIT COMMANDS
+
+// create repository
+
+=> go to github and create NEW repo
+=> insert credentials
+=> copy the link
+
+// come to VScode/terminal
+	
+=> git init to initialize repo
+=> git remote add origin (link copied from repo) to connect code with repo
+=> git add . to add all files in repo
+=> git commit -m "comments"
+=> git push -u origin master(main branch)
+
+// to pull code
+
+=> git clone repo_link (THAT BRING A WHOLE PROJ TO YOUR WORKSPACE)
+=> git pull (only changes will be effected)
+
+
+// BRANCHES 
+
+=> git branch (it will show all branch and the active branch)
+=> git status (will tell you all the info about active branch)
+=> git branch -c name_of_the_branch (it will create a new branch)
+=> git checkout branch_name (it will switch from one branch to another)
+
+
+// PULL AND PUSH FROM BRANCHES
+
+=> git add .
+=> git commit -m "comments"
+=> git push -u origin branch_name
+=> git pull branch_name (will get all the files from the branch_name branch)
+
+
+
+
+
+
+
+
